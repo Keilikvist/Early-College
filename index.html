@@ -170,6 +170,34 @@
         border: solid white;
         cursor: pointer;
       }
+      .contact-container {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f2e8fc;
+      }
+      .contact-statement-column {
+        flex: 33%;
+        font-weight: 600;
+      }
+      .contact-statement {
+        font-size: 18px;
+      }
+      .contact-image-column {
+        flex: 33%;
+      }
+      .bolton {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+      }
+      .school-address-column {
+        flex: 33%;
+      }
+      .school-name {
+        font-weight: 600;
+      }
     </style>
   </head>
   <body>
@@ -270,16 +298,36 @@
       <button class="CCMR">CCMR</button>
       <button class="AP">AP</button>
     </div>
+
+    <div class="contact-container">
+      <div class="contact-statement-column">
+        <p class="contact-statement">
+          To learn more about Advanced Academics and Early College
+          opportunities, please contact Ms. Bolton - Administrator for Post
+          Secondary Initiatives.
+        </p>
+      </div>
+      <div class="contact-image-column">
+        <img
+          class="bolton"
+          src="images\bolton.jpg"
+          alt="Ms. Bolton"
+          width="200px"
+          height="225px"
+        />
+      </div>
+      <div class="school-address-column">
+        <p class="school-name">EISENHOWER HIGH SCHOOL</p>
+        <p class="school-address">
+          7922 Antoine Dr<br />Houston, TX. 77088<br />Phone 281.878.0900
+        </p>
+      </div>
+    </div>
     <footer>This page has the info I need</footer>
     <a
       href="https://www.aldineisd.org/about/departments/teaching-learning-department/advanced-academics-department/"
       target="_blank"
       >aldine page</a
     >
-    <div class="contact-container">
-      <div class="contact-image">
-        <img src="images\bolton.jpg" alt="Ms. Bolton" />
-      </div>
-    </div>
   </body>
 </html>
